@@ -5,19 +5,71 @@
             Youtube
         </title>
         <style>
+            p{
+                font-family: Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
             .thumbnail{
-                width: 350px;
+                width: 300px;
+                margin-bottom: 12px;
+                display: block;
             }
             .search-bar{
                 border-color: blue;
                 border-width: 1px;
                 padding-top: 10px;
                 padding-bottom: 10px;
+                display: block;
+            }
+            .video-title{
+                font-weight: bold;
+                font-size: 14px;
+                margin-bottom: 14px;
+            }
+            .video-author{
+                color: rgb(96,96,96);
+                font-size: 12px;
+                margin-bottom: 3px;
+            }
+            .video-status{
+                color: rgb(96,96,96);
+                font-size: 12px;
+                margin-top: 0px;
+            }
+            .video-preview{
+                width: 300px;
+                display: inline-block;
+                margin-right: 10px;
+                vertical-align: top;
             }
         </style>
     </head>
     <body>
-        <img class="thumbnail" src="thumbnails\thumbnail-1.webp">
         <input placeholder="Search" class="search-bar">
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnails\thumbnail-1.webp">
+            <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+                Marques Brownlee
+            </p>
+            <p class="video-status">
+                3.4M views &#183; 6 months ago
+            </p>
+        </div>
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnails\thumbnail-2.webp">
+            <p class="video-title">
+               Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+                Markiplier
+            </p>
+            <p class="video-status">
+                19M views &#183; 4 years ago
+            </p>
+        </div>
     </body>
 </html>
