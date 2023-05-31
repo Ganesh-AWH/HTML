@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise-5 (css display property)
+        </title>
+        <style>
+            P{
+                font-family: arial;
+            }
+            .input-name{
+                display: block;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+            .paragraph{
+                display: inline-block;
+                width: 200px;
+                vertical-align: middle;
+            }
+            .google-logo{
+                width: 150px;
+                margin-top: 10px;
+                display: block;
+                margin-left: 150px;
+            }
+            .google-search{
+                margin-top:10px;
+                height: 20px;
+                width: 1000px;
+                border: none;
+                font-size: 16px;
+                width: 500px;
+                border-radius: 30px;
+                padding-top: 15px;
+                padding-bottom: 12px;
+                padding-left: 16px;
+                padding-right: 16px;
+                box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+            }
+            .first_name,.last_name{
+                display: inline-block;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 6px;
+                border-style: solid;
+                padding-left: 10px;
+                border-width: 1px;
+                margin-right: 5px;
+                width: 100px;
+                border-color: rgb(96,96,96);
+            }
+            .email{
+                display: block;
+                margin-top: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 6px;
+                border-style: solid;
+                padding-left: 10px;
+                width: 225px;
+                border-width: 1px;
+                margin-right: 5px;
+                border-color: rgb(96,96,96);
+            }
+            .signup-button{
+                cursor: pointer;
+                margin-top: 15px;
+                border:none;
+                border-radius: 7px;
+                background-color: rgba(0, 123, 255, 0.916);
+                padding-left: 95px;
+                padding-right: 97px;
+                padding-top: 13px;
+                padding-bottom: 13px;
+            }
+            .title{
+                font-weight: bold;
+                font-size: 30px;
+            }
+            .location-input,.destination-input{
+                margin-bottom: 10px;
+                display: block;
+                border: none;
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                background-color: rgba(96, 96, 96, 0.167);
+            }
+            .uber-button{
+                background-color: black;
+                color: white;
+                border: none;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                cursor: pointer;
+                margin-right: 5px;
+                transition: opacity 0.17s;
+            }
+            .uber-button:hover{
+                opacity: 0.7;
+            }
+            .uber-button:active{
+                opacity: 0.4;
+            }
+            .schedule-button{
+                border: none;
+                font-size: 13px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                cursor: pointer;
+                background-color: rgba(96, 96, 96, 0.167);
+                transition: opacity 0.17s;
+            }
+            .schedule-button:hover{
+                background-color: rgba(0, 0, 0, 0.356);
+            }
+            .schedule-button:active{
+                opacity: 0.6;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            5.a)
+            <br>
+        </p>
+        <input placeholder="Name" class="input-name">
+        <input placeholder="Email" class="input-email">
+        <p>
+            5.b)
+        </p>
+        <p class="paragraph">
+            Thanks for chatting with our customer support.
+            Would you like to take our quick survey?
+        </p>
+        <button>
+            yes
+        </button>
+        <button>
+            no
+        </button>
+
+        <p>
+            5.c)
+        </p>
+        <img class="google-logo" src="download.png">
+        <input class="google-search" 
+        placeholder="Search Google or Copy URL">
+        <br>
+        <br>
+        <p>
+            8.d) Sign up Form
+        </p>
+        <input placeholder="First name" class="first_name">
+        <input placeholder="Last name" class="last_name">
+        <input placeholder="Email" class="email">
+        <button class="signup-button">
+            Sign Up
+        </button>
+
+        <p>
+            8.e) <br>
+          <span class="title">Request a ride now</span>
+        </p>
+        <input class="location-input" placeholder="Enter pickup location">
+        <input class="destination-input" placeholder="Enter destination">
+        <button class="uber-button">
+            Request now
+          </button>
+          <button class="schedule-button">
+            Schedule for later
+          </button>
+    </body>
+</html>
