@@ -4,6 +4,7 @@ body{
 }
 p{
     font-weight: bold;
+    
 }
 /*flex-box -1 css */
 .flex-box-1{
@@ -74,6 +75,7 @@ p{
     border-color: rgb(150, 150, 150);
     /* height: 200px; */
     width: 400px;
+    margin-bottom: 50px;
 }
 .flex-box-5{
     display: flex;
@@ -113,6 +115,7 @@ p{
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 50px;
 }
 .left{
     color: white;
@@ -148,4 +151,69 @@ p{
 }
 .download-button:active{
     opacity: 0.5;
+}
+
+/* .flex-box-7 css */
+.container{
+    border-width: 1px;
+    border-color: rgb(150, 150, 150);
+    border-style: solid;
+    width: 400px;
+    padding-left: 10px;
+}
+.flex-box-7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.info{
+    width: 250px;
+}
+.profile{
+    font-weight: bold;
+    font-size: 15px;
+}
+.handle{
+    font-size: 15px;
+    padding-top: 6px;
+    color: rgb(150, 150, 150);
+    font-weight: 100;
+}
+.category{
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+    font-weight: 100;
+}
+.profile,.handle,.category{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.follow-button{
+    background-color: rgba(49, 108, 245, 0.904);
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-family: Roboto;
+    transition: opacity 0.15s;
+}
+.follow-button:hover{
+    opacity: 0.8;
+}
+.follow-button:active{
+    opacity: 0.6;
 }

@@ -66,12 +66,14 @@ p{
     opacity: 0.7;
 }
 .youtube-interface{
-    margin-top: 30px;
-    margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: 170px 170px 170px;
+    row-gap: 20px;
     padding-top: 10px;
     padding-left: 5px;
     width: 700px;
     height: 600px;
+    margin-bottom: 50px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
 .thumbnail-division{
@@ -85,11 +87,15 @@ p{
     width: 300px;
 }
 .description-division{
+    display: grid;
     display: inline-block;
     vertical-align: top;
 }
 .video-preview{
-    margin-bottom: 15px;
+    display: grid;
+    background-color: gray;
+    grid-template-columns: 300px 350px;
+    column-gap: 15px;
 }
 .video-title{
     width: 300px;
