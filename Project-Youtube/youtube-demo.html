@@ -4,6 +4,7 @@
         <title>
             youtube
         </title>
+        <link rel="stylesheet" href="Youtube-styles/header.css">
         <link rel="stylesheet" href="Youtube-styles/video.css">
         <link rel="stylesheet" href="Youtube-styles/general.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +15,23 @@
         </style>
     </head>
     <body>
-        <input placeholder="Search" class="search-bar">
+        <div class="header">
+            <div class="left-part">
+                <img src="thumbnails/icons/hamburger-menu.svg" class="hamburger-menu">
+                <img src="thumbnails/icons/youtube-logo.svg" class="youtube-logo">
+            </div>
+            <div class="middle-part">
+                <input placeholder="Search" class="search-bar" type="text">
+                <button class="search-button"><img src="thumbnails/icons/search.svg" class="search-icon"></button>
+                <button class="voice-search-button"><img src="thumbnails/icons/voice-search-icon.svg" class="voice-search-icon"></button> 
+            </div>
+            <div class="right-part">
+                <img src="thumbnails/icons/upload.svg" class="upload-icon">
+                <img src="thumbnails/icons/youtube-apps.svg" class="apps-icon">
+                <img src="thumbnails/icons/notifications.svg" class="notification-icon">
+                <img src="thumbnails/profile/15.jpg" class="profile-icon">
+            </div>
+        </div>
         <div class="video-grid">
             <div class="video-preview">
                 <div>

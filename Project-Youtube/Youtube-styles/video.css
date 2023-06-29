@@ -4,13 +4,6 @@
     margin-bottom: 12px;
     display: block;
 }
-.search-bar{
-    border-color: blue;
-    border-width: 1px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: block;
-}
 .video-title{
     font-weight: 500;
     font-size: 14px;
