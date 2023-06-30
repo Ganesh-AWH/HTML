@@ -34,20 +34,22 @@ body{
 }
 
 .container{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
     width: 400px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.25);
-    border-radius: 4px;
-    margin-top: 20px;
-    margin-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    padding: 10px 15px 10px 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.profile-container{
+    margin-right: 10px;
 }
 .profile{
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
     object-fit: cover;
 }
 .email{
@@ -55,40 +57,85 @@ body{
     flex-direction: row;
     align-items: center;
 }
+.email-header{
+    display: flex;
+    justify-content: space-between;
+
+}
 .email-content{
     flex: 1;
 }
-.email-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.topic{
+    color: rgb(152,152,152);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.sender-name{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.sent-time{
+    color: rgb(152,152,152);
+    font-size: 13px;
+}
+.subject{
+    font-weight: bold;
     margin-bottom: 3px;
 }
-.sender-name {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-.sent-time {
-    font-size: 14px;
-    color: rgb(120, 120, 120);
-}
-.subject {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-.message {
-    color: rgb(120, 120, 120);
+.message{
+    color: rgb(152,152,152);
+    font-size: 15px;
 }
 
-.profile-container {
+
+
+.t-container{
+    margin-top: 10px;
+    width: 400px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px 15px 10px 15px;
+}
+.t-profile-container{
     margin-right: 10px;
-  }
+}
+.t-profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.tweet{
+    display: flex;
+    align-items: center;
+}
+.t-header{
+    display: flex;
+}
 
-  .inbox-label {
-    font-size: 14px;
-    color: rgb(120, 120, 120);
-    margin-bottom: 20px;
-  }
+.y-container{
+    border-width: 1px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: inset 0px 0px 1.5px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+.youtube{
+    display: flex;
+}
+.y-heder{
+    display: flex;
+}
+.square{
+    background-color: rgba(128, 128, 128, 0.297);
+    width:  200px;
+    height: 100px;
+    border-radius: 10px;
+}
+.webiste{
+    flex: 1;
+}
+
