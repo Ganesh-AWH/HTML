@@ -6,3 +6,23 @@
     width: 72px;
     top: 60px;
 }
+.sidebar-link{
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sidebar-link:hover{
+    background-color: lightgray;
+}
+
+.sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div{
+    font-family: Roboto,Arial;
+    font-size: 9px;
+}
