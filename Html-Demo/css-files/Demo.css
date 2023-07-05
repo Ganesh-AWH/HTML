@@ -1,19 +1,49 @@
-.flex-box{
-    display: flex;
-    flex-direction: row;
-    border-width: 1px;
-    border-color: grey;
-    border-style: solid;
-    height: 70px;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .pink{
     background-color: lightpink;
-    width: 100px; 
+    height: 200px;
+    width: 250px;
+}
+.header{
+    background-color: black;
+    color: white;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;    
 }
 .blue{
     background-color: lightblue;
-    width: 100px;
+    height: 200px;
+    width: 250px;
+    position: relative;
 }
+body{
+    height: 1000px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 50px;
+    width: 72px;
+    background-color: yellowgreen;
+}
+.abs{
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.time-stamp{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
